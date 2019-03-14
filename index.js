@@ -14,7 +14,7 @@ var main = "index.js";
 var author = "Lil Thorny <hi@lilthorny.party";
 var license = "MIT";
 var scripts = {
-	build: "rollup -c rollup.config.js"
+	build: "rollup -c rollup.config.js src/index.js -o index.js -f cjs"
 };
 var devDependencies = {
 	"fs-extra": "^7.0.1",

@@ -6,7 +6,7 @@
   "author": "Lil Thorny <hi@lilthorny.party",
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c rollup.config.js"
+    "build": "rollup -c rollup.config.js src/index.js -o index.js -f cjs"
   },
   "devDependencies": {
     "fs-extra": "^7.0.1",
