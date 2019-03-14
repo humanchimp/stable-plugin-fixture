@@ -1,9 +1,17 @@
 {
   "name": "@topl/stable-plugin-fixture",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "bundle fixture data as modules",
   "main": "index.js",
-  "author": "Christopher Thorn <christopherthorn82@gmail.com>",
+  "author": "Lil Thorny <hi@lilthorny.party",
   "license": "MIT",
-  "private": "true"
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "devDependencies": {
+    "fs-extra": "^7.0.1",
+    "rollup": "^1.6.0",
+    "rollup-plugin-json": "^3.1.0",
+    "rollup-plugin-virtual": "^1.0.1"
+  }
 }
